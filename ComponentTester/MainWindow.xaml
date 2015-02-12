@@ -1,0 +1,9 @@
+﻿<Window x:Class="ComponentTester.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:splitPanel="clr-namespace:SplitPanel;assembly=SplitPanel"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <splitPanel:AddinContainer/>
+    </Grid>
+</Window>
